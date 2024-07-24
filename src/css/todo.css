@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #F8F7FD;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header h1 {
+    margin: 20px 0;
+    font-weight: 600;
+    color: #666583;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.todo-list li label {
+    color: #000;
+    opacity: 1;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out, opacity 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.todo-list li.completed label {
+    text-decoration: line-through;
+    color: #888;
+    opacity: 0.6;
+}
+
+.new-todo {
+    display: inline-block;
+    width: 700px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    margin: 35px 10px 10px 10px;
+}
+
+.filters li a {
+    text-decoration: none;
+}
+
+li a {
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #676FE9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #676FE9;
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+
+li a:hover {
+    border: 1px solid #676FE9;
+    color: #676FE9;
+    background-color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-1 {
+    text-align: center;
+    border: 1px solid #676FE9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #676FE9;
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+    margin-right: 38px;
+}
+
+.btn-1:hover {
+    border: 1px solid #676FE9;
+    color: #676FE9;
+    background-color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.main {
+    background-color: #EEEDF3;
+    display: inline-block;
+    width: 700px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.main .toggle-all {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.main p{
+    position: absolute;
+    top: 8px;
+    left: 68px;
+    font-size: 18px;
+    color: #666583;
+}
+
+.view {
+    position: relative;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    background-color: #FFF;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.view button {
+    align-items: end;
+}
+
+.view label {
+    margin: 0 30px 0 0;
+}
+
+.view .toggle {
+    width: 20px;
+    height: 20px;
+}
+
+.todo-list {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.todo-list .view {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-list .view label {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.todo-list .view .destroy {
+    background: #ECECEC;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    
+}
+.todo-list .view .destroy:hover {
+    background: #666583;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.edit {
+    width: 700px;
+    position: relative;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    background-color: #FFF;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.editing .edit {
+    border: none;
+    outline: none;
+}
