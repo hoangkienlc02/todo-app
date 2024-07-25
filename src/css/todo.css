@@ -70,13 +70,19 @@ li a {
     transition: all 0.3s ease-in-out;
 }
 
-li a:hover {
+li a:focus {
     border: 1px solid #676FE9;
     color: #676FE9;
     background-color: #FFF;
     transition: all 0.3s ease-in-out;
 }
 
+li a:hover {
+    border: 1px solid #676FE9;
+    color: #676FE9;
+    background-color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
 .btn-1 {
     text-align: center;
     border: 1px solid #676FE9;
