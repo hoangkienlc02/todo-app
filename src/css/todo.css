@@ -211,3 +211,50 @@ li a:hover {
     border: none;
     outline: none;
 }
+@media (max-width: 776.98px) {
+    .header h1{
+        font-size: 30px;
+    }
+    .header .new-todo{
+        width: 400px;
+    }
+    .main{
+        width: 400px;
+    }
+}
+@media (max-width: 414.98px) {
+    .header h1{
+        font-size: 25px;
+    }
+    .header .new-todo{
+        width: 350px;
+    }
+    .main{
+        width: 350px;
+    }
+    .view .toggle{
+        width: 15px;
+    }
+    .view label{
+        font-size: 16px;
+    }
+    .view i{
+        font-size: 16px;
+    }
+    .main .toggle-all{
+        width: 15px;
+        font-size: 16px;
+    }
+    .main p{
+        font-size: 16px;
+    }
+    .filters{
+        display: block;
+    }
+    .filters li{
+        margin: 15px;
+    }
+    .footer .btn-1{
+        margin-left: 38px;
+    }
+}
